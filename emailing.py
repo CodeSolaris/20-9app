@@ -40,5 +40,3 @@ def send_email(image_path):
     except Exception as e:
         print("An error occurred while sending the email:", str(e))
 
-if __name__ == "__main__":
-    send_email(image_path="images/1.jpg")
